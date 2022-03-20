@@ -1,0 +1,72 @@
+<!DOCTYPE html> 
+<html lang='en'>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1,
+		shrink-to-fit=no">
+        <title>Task Tile</title>
+        <style>
+            .add-task-panel {
+                background-color: rgb(17, 121, 219);
+                padding: 10px;
+                border-radius: 15px;
+                max-width: fit-content;
+            }
+            #panel-heading {
+                /* used for h1 */
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                color: yellow;
+            } 
+            #add-task-input {
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                padding: 5px;
+            }
+            input{
+                float: right;
+            }
+            #btn{
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                background-color: rgb(57, 201, 69);
+                border-radius: 5px;
+                border-color: yellow;
+                margin: 10px;
+                font-size: medium;
+                font-weight: bold;
+                color: yellow;
+                /* move to the right */
+            }
+            
+           
+        </style>
+    </head>
+    <body>
+        <div class="add-task-panel">
+            <h1 id="panel-heading">Add Task</h1>
+            <div id="add-task-input">
+                <label>Title</label>
+                <input type="text">
+            </div>
+            <div id="add-task-input">
+                <label>Date</label>
+                <input type="date">
+            </div>
+            <div id="add-task-input">
+                <label>Start Time</label>
+                <input type="time">
+            </div>
+            <div id="add-task-input">
+                <label>End Time</label>
+                <input type="time">
+            </div>
+            <div id="add-task-input">
+                <label>Location</label>
+                <input type="text">
+            </div>
+            <div id="add-task-input">
+                <label>Notes</label>
+                <input type="text">
+            </div>
+            <div><button id="btn">Submit</button></div>
+        </div>
+    </body>
+</html>

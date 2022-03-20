@@ -1,0 +1,55 @@
+<!DOCTYPE html> 
+<html lang='en'>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1,
+		shrink-to-fit=no">
+        <title>Task Tile</title>
+        <style>
+            .task-tile{
+                width: 300px;
+                background-color: rgb(57, 201, 69);
+                border-radius: 15px;
+                padding: 10px;
+                margin: 10px;
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                /* subject to be changed ^^^ */
+            }
+            .tiles-display-grid{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+            #tiles-display {
+                background-color: rgb(17, 121, 219);
+                padding: 10px;
+                border-radius: 15px;
+                max-width: fit-content;
+            }
+            #panel-heading {
+                /* used for h1 */
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                color: yellow;
+            }
+            
+           
+        </style>
+    </head>
+    <body>
+        <div id="tiles-display">
+            <h1 id="panel;-heading">TODO List</h1>
+            <div class="tiles-display-grid">
+                <div class="task-tile">hello</div>
+                <div class="task-tile">hello</div>
+                <div class="task-tile">hello</div>
+                <div class="task-tile">hello</div>
+                <div class="task-tile">hello</div>
+                <div class="task-tile">hello</div>
+                <div class="task-tile">hello</div>
+                <div class="task-tile">hello</div>
+                <div class="task-tile">hello</div>
+                <div class="task-tile">hello</div>
+                <div class="task-tile">hello</div>
+            </div>
+        </div>
+    </body>
+</html>

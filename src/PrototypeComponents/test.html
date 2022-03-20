@@ -1,0 +1,127 @@
+<!DOCTYPE html> 
+<html lang='en'>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1,
+		shrink-to-fit=no">
+        <title>Task Tile</title>
+        <style>
+           .task-tile{
+                width: 300px;
+                background-color: rgb(57, 201, 69);
+                border-radius: 15px;
+                padding: 10px;
+                margin: 10px;
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                /* subject to be changed ^^^ */
+            }
+            .tiles-display-grid{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+            #tiles-display {
+                background-color: rgb(17, 121, 219);
+                padding: 10px;
+                border-radius: 15px;
+                max-width: fit-content;
+            }
+            #tiles-display-heading {
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                color: yellow;
+            }
+            #task-tile-day{
+                font-size: xx-large;
+                color: white;
+                font-weight: bold;
+            }
+            #task-tile-month{
+                font-size:x-large;
+                font-weight: lighter;
+                color: white;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+            #task-tile-cal-date{
+                background-color: red;
+                padding: 5px;
+                margin: 0px;
+                border-top-left-radius: 15px;
+                border-top-right-radius: 15px;
+                /* width: 30px;
+                border-radius: 20px; */
+            }
+            #task-tile-title {
+                font-weight: bold;
+                font-size: large;
+                margin: 0px;
+                padding-top: 3px;
+                padding-bottom: 3px;
+            }
+            p{
+                margin: 0px;
+            }
+            #task-tile-location{
+                padding-top: 3px;
+                padding-bottom: 3px;
+                margin: 0px;
+                color: rgb(42, 89, 189);
+            }
+            #task-tile-description{
+                font-style: italic;
+            }
+            #task-tile-btn {
+                color: white;
+                background-color: red;
+                float: right;
+                border-color: red;
+                padding: 0px;
+                padding-left: 2px;
+                padding-right:2px;
+                margin: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="tiles-display">
+            <h1 id="tiles-display-heading">TODO List</h1>
+            <div class="tiles-display-grid">
+                <div class="task-tile">
+                    <h1 id="task-tile-cal-date"><span id="task-tile-day">13 </span><span id="task-tile-month">March</span><button id="task-tile-btn" >X</button></h1>
+                    <h2 id="task-tile-title">Twenty Second Birthday</h2>
+                    <p>Start Time</p>
+                    <p">(End Time)</p>
+                    <p id="task-tile-location">(Location: 6315 Breeze Hill Rd)</p>
+                    <p id="task-tile-description">uility, provide for the common defence, promote the general Welfare, and secure the Blessings of Liberty to ourselves and our Posterity, do ordain and establish this Constitution for the United States of America.</p>
+                </div><div class="task-tile">
+                    <h1 id="task-tile-cal-date"><span id="task-tile-day">13 </span><span id="task-tile-month">March</span><button id="task-tile-btn" >X</button></h1>
+                    <h2 id="task-tile-title">Twenty Second Birthday</h2>
+                    <p>Start Time</p>
+                    <p">(End Time)</p>
+                    <p id="task-tile-location">(Location: 6315 Breeze Hill Rd)</p>
+                    <p id="task-tile-description">We the People of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defence, promote the general Welfare, and secure the Blessings of Liberty to ourselves and our Posterity, do ordain and establish this Constitution for the United States of America.</p>
+                </div><div class="task-tile">
+                    <h1 id="task-tile-cal-date"><span id="task-tile-day">13 </span><span id="task-tile-month">March</span><button id="task-tile-btn" >X</button></h1>
+                    <h2 id="task-tile-title">Twenty Second Birthday</h2>
+                    <p>Start Time</p>
+                    <p">(End Time)</p>
+                    <p id="task-tile-location">(Location: 6315 Breeze Hill Rd)</p>
+                    <p id="task-tile-description"> America.</p>
+                </div><div class="task-tile">
+                    <h1 id="task-tile-cal-date"><span id="task-tile-day">13 </span><span id="task-tile-month">March</span><button id="task-tile-btn" >X</button></h1>
+                    <h2 id="task-tile-title">Twenty Second Birthday</h2>
+                    <p>Start Time</p>
+                    <p">(End Time)</p>
+                    <p id="task-tile-location">(Location: 6315 Breeze Hill Rd)</p>
+                    <p id="task-tile-description">We the a.</p>
+                </div><div class="task-tile">
+                    <h1 id="task-tile-cal-date"><span id="task-tile-day">13 </span><span id="task-tile-month">March</span><button id="task-tile-btn" >X</button></h1>
+                    <h2 id="task-tile-title">Twenty Second Birthday</h2>
+                    <p>Start Time</p>
+                    <p">(End Time)</p>
+                    <p id="task-tile-location">(Location: 6315 Breeze Hill Rd)</p>
+                    <p id="task-tile-description">We therica.</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
